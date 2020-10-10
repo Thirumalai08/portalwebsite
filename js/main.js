@@ -8,6 +8,42 @@
         hideDistantElements: false,
         scrollProperty: 'scroll'
     })
+    // js-fullheight
+    var fullHeight = function(){
+        $('.js-fullheight').css('height',$(window).height())
+        $(window).resize(function(){
+            $('.js-fullheight').css('height',$(window).height())
+        })
+    }
+    fullHeight()
+    // Image Slider
+    var carousel = function(){
+        $('.home-slider').owlCarousel({
+            loop:true,
+            autoplay:true,
+            margin:0,
+            animateOut:'fadeOutLeft',
+            animateIn:'fadeInDown',
+            nav: true,
+            dots:true,
+            autoplayTimeout:6000,
+            autoplayHoverPause:false,
+            items:1,
+            navText:["<span class='ion-ios-arrow-back'></span>","<span class='ion-ios-arrow-forward'></span>"],
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                1000:{
+                    items:1
+                }
+            }
+        })
+    }
+    carousel()
     // nav bar dropdown @ responsive breakpoints for toggle button
     $('nav .dropdown').hover(function(){
         var $this = $(this)
