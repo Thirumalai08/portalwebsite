@@ -1,0 +1,190 @@
+/* global styles */
+body{
+    font-family: "Poppins",Arial, sans-serif;
+    background: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #333;
+}
+a {
+    transition: 0.3s all ease;
+    color: #333;
+}
+a:hover,a:focus {
+    text-decoration: none;
+    color: #333;
+    outline: none !important;
+}
+h1,h2,h3,h4,h5,.h1,.h2,.h3,.h4,.h5 {
+    line-height: 1.2;
+    color: rgba(0,0,0,0.8);
+    font-weight: 500;
+}
+/*.container {
+    max-width: 1300px;
+} */
+/**/
+/* Top bar */
+.wrap {
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    width: 100%;
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+/* Address */
+.wrap .location {
+    z-index: 1;
+    color: #fff;
+    font-weight: 300;
+}
+.wrap .location span {
+    color: #fff;
+}
+.wrap .location a {
+    color: #fff;
+    font-size: 12px;
+}
+/* End Address */
+/* Social Media */
+.social-media {
+    display: inline-block;
+}
+.social-media a {
+    width: 44px;
+    height: 44px;
+    border-left: 1px solid rgba(255,255,255,0.1);
+}
+.social-media a span {
+    color: #fff;
+}
+.social-media a:hover {
+    background-color: #2457aa;
+    border-color: #2457aa;
+}
+.social-media a:hover span {
+    color: #fff;
+}
+/* Responsive media query */
+@media(max-width:991.98px){
+    .wrap{
+        display: none;
+    }
+}
+/* End Social Media */
+/* End of Top Bar */
+
+/* Navbar */
+.ftco-navbar-light {
+    background: #fff !important;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    padding: 20px 0px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+/* brand */
+.ftco-navbar-light .navbar-brand {
+    color: #333;
+    font-weight: 700;
+}
+.ftco-navbar-light .navbar-brand span {
+    color: #2457aa;
+}
+/* Links */
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+    font-size: 14px;
+    padding-top: .9rem;
+    padding-bottom: .9rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #000;
+    /*color: #fff;*/
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 1 !important; 
+}
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
+    color: #2457aa;
+}
+.ftco-navbar-light .navbar-nav > .nav-item .dropdown-menu {
+    border: none;
+    background: #fff;
+    box-shadow: 0 10px 34px -20px rgba(0,0,0,0.41);
+}
+.ftco-navbar-light .navbar-nav > .nav-item.ftco-seperator {
+    position: relative;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+.ftco-navbar-light .navbar-nav > .nav-item.ftco-separator:before {
+    position: absolute;
+    content: "";
+    top: 10px;
+    bottom: 10px;
+    left: 0;
+    width: 2px;
+    background: rgba(255,255,255,0.05);
+}
+.ftco-navbar-light .navbar-nav > .nav-item.active > a {
+    color: #2457aa;
+}
+.ftco-navbar-light .navbar-toggler {
+    border: none;
+    color: #333 !important;
+    cursor: pointer;
+    padding-right: 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: .1em; 
+}
+.ftco-navbar-light .navbar-toggler:hover, .ftco-navbar-light .navbar-toggler:focus {
+      text-decoration: none;
+      color: #2457aa;
+      /*color: #ce0f3d;*/
+      outline: none !important; 
+}
+/* Responsive media query */
+@media(max-width:991.98px){
+    .ftco-navbar-light {
+        background: #fff !important;
+        position: relative;
+        top: 0;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    }
+    .ftco-navbar-light .navbar-brand {
+        padding-left: 20px;
+        color: #333;
+    }
+    .ftco-navbar-light .navbar-nav {
+        padding-bottom: 10px;
+    }
+    /* Links */
+    .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+        padding-left: 20px;
+        padding-right: 0;
+        padding-bottom: 0;
+        color: #000;
+    }
+    .ftco-navbar-light .navbar-nav > .nav-item.ftco-separator {
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .ftco-navbar-light .navbar-nav > .nav-item.ftco-separator:before{
+        display: none;
+    }
+    .ftco-navbar-light .navbar-nav > .nav-item.active > a {
+        color: #2457aa;
+    }
+    .ftco-navbar-light .navbar-toggler {
+        padding-right: 20px;
+    }
+}
+/* End of Navbar */
