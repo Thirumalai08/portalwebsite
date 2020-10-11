@@ -612,6 +612,14 @@ h1,h2,h3,h4,h5,.h1,.h2,.h3,.h4,.h5 {
     position: relative;
     background: #f5faff;
 }
+.testimony-section .solo-text {
+    margin-top: 60px;
+    text-align: center;
+}
+.testimony-section .solo-text span {
+    color: #2457aa;
+    font-weight: bold;
+}
 /* owl carousel */
 .testimony-section .owl-carousel {
     margin: 0;
