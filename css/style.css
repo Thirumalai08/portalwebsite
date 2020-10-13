@@ -469,7 +469,7 @@ h1,h2,h3,h4,h5,.h1,.h2,.h3,.h4,.h5 {
 @media(max-width:991.98px){
     .hero-wrap .slider-text h1 {
         font-size: 40px;
-        color: cyan;
+        color: #333;
     }
     .owl-carousel.home-slider .slider-item .slider-text h1 {
         font-size: 32px;
@@ -563,10 +563,10 @@ h1,h2,h3,h4,h5,.h1,.h2,.h3,.h4,.h5 {
     z-index: 0; 
 }
 .heading-section .subheading {
-      font-size: 12px;
+      font-size: 14px;
       display: inline-block;
       font-weight: 800;
-      color: #ce0f3d;
+      color: #2457aa;
       text-transform: uppercase;
       letter-spacing: 2px;
       position: relative;
@@ -619,6 +619,7 @@ h1,h2,h3,h4,h5,.h1,.h2,.h3,.h4,.h5 {
 .testimony-section .solo-text span {
     color: #2457aa;
     font-weight: bold;
+    text-decoration: underline;
 }
 /* owl carousel */
 .testimony-section .owl-carousel {
@@ -732,3 +733,38 @@ h1,h2,h3,h4,h5,.h1,.h2,.h3,.h4,.h5 {
     }
 }
 /*End*/
+
+/* About */
+.ftco-bg-dark {
+    background: #3c312e; 
+}
+.ftco-no-pt {
+    padding-top: 0 !important; 
+}
+.ftco-no-pb {
+    padding-bottom: 0 !important; 
+}
+.img {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.ftco-section {
+    padding: 9em 0;
+    position: relative; 
+}
+.heading-section .about-heading {
+    font-weight: normal;
+}
+.heading-section .about-heading span {
+    font-weight: 700;
+    color: #2457aa;
+}
+/* Responsive media query */
+@media (max-width: 767.98px) {
+    .ftco-section {
+      padding: 6em 0; 
+    } 
+}  
+/* End */
