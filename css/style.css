@@ -751,7 +751,7 @@ h1,h2,h3,h4,h5,.h1,.h2,.h3,.h4,.h5 {
     background-position: center center;
 }
 .ftco-section {
-    padding: 9em 0;
+    padding: 5em 0;
     position: relative; 
 }
 .heading-section .about-heading {
@@ -764,7 +764,7 @@ h1,h2,h3,h4,h5,.h1,.h2,.h3,.h4,.h5 {
 /* Responsive media query */
 @media (max-width: 767.98px) {
     .ftco-section {
-      padding: 6em 0; 
+      padding: 3em 0; 
     } 
 }  
 /* End */
