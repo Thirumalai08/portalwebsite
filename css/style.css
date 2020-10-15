@@ -768,3 +768,54 @@ h1,h2,h3,h4,h5,.h1,.h2,.h3,.h4,.h5 {
     } 
 }  
 /* End */
+
+/* Team Slider */
+.heading-section .team-heading {
+    font-weight: normal;
+}
+.heading-section .team-heading span {
+    font-weight: 800;
+}
+.staff {
+    width: 100%;
+    margin-bottom: 30px; 
+}
+.staff .img {
+    background-position: top center;
+    width: 100%;
+    display: block;
+    height: 300px;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease; 
+}
+.staff .text {
+    padding: 10px 20px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -40px;
+    border-radius: 4px;
+    background: #2457aa;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease; 
+}
+.staff .text h3 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 0;
+    font-weight: 700; 
+}
+.staff .text span {
+    color: rgba(255, 255, 255, 0.7); 
+}
+.staff:hover .text {
+    width: 90%; 
+}
+/* Responsive media query */
+/* End */
