@@ -66,6 +66,10 @@
 				}
 			}
 		})
+		// Team Slider
+		$('.team-testimony').owlCarousel({
+			
+		})
     }
     carousel()
     // nav bar dropdown @ responsive breakpoints for toggle button
